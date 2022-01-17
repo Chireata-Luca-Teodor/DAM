@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stitcher</string>
+    <string name="btnCreate">Create Account</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="txtOr">---------------------------------------OR------------------------------------------------</string>
+    <string name="txtWelcomeReg">Welcome to Stitcher</string>
+</resources>
