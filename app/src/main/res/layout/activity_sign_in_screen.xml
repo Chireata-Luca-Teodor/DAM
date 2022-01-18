@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInScreen">
+
+    <TextView
+        android:id="@+id/txtWelcomeSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="500dp"
+        android:text="@string/txtWelcomeSign"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSignIn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtSignIn2"
+        app:layout_constraintBottom_toTopOf="@+id/etEmailSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcomeSign" />
+
+    <EditText
+        android:id="@+id/etEmailSign"
+        android:layout_width="331dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="57dp"
+        android:ems="10"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSignIn2" />
+
+    <EditText
+        android:id="@+id/etPasswordSign"
+        android:layout_width="338dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="@string/hintPassword"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignScreen"
+        app:layout_constraintEnd_toEndOf="@+id/etEmailSign"
+        app:layout_constraintStart_toStartOf="@+id/etEmailSign"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailSign" />
+
+    <Button
+        android:id="@+id/btnSignScreen"
+        android:layout_width="335dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="198dp"
+        android:backgroundTint="#0099FF"
+        android:text="@string/btnSignScreen"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordSign"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordSign"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordSign" />
+</androidx.constraintlayout.widget.ConstraintLayout>

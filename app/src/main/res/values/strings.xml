@@ -4,4 +4,11 @@
     <string name="btnSignIn">Sign In</string>
     <string name="txtOr">---------------------------------------OR------------------------------------------------</string>
     <string name="txtWelcomeReg">Welcome to Stitcher</string>
+    <string name="txtWelcomeSign">Welcome Back!</string>
+    <string name="txtRegister2">Looks like you\'re new here - enter a password and let\'s go!</string>
+    <string name="btnRegister">Create Account</string>
+    <string name="txtSignIn2">Enter your password and we\'ll load your podcasts</string>
+    <string name="btnSignScreen">Sign In</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
 </resources>

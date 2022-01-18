@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Stitcher">
         <activity
+            android:name=".SignInScreen"
+            android:exported="true" />
+        <activity
             android:name=".RegisterScreen"
             android:exported="true" />
         <activity

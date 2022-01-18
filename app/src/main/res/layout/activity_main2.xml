@@ -12,13 +12,75 @@
         android:layout_height="37dp"
         android:layout_marginStart="93dp"
         android:layout_marginTop="150dp"
-        android:layout_marginEnd="117dp"
+        android:layout_marginEnd="105dp"
         android:layout_marginBottom="544dp"
         android:text="@string/txtWelcomeReg"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="499dp"
+        android:text="@string/txtRegister2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcomeReg" />
+
+    <EditText
+        android:id="@+id/etEmailReg"
+        android:layout_width="330dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegister2"
+        app:layout_constraintVertical_bias="0.739"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etPasswordReg"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="@string/hintPassword"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="@+id/etEmailReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etEmailReg"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailReg"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="337dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#0099FF"
+        android:text="@string/btnRegister"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordReg"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordReg"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordReg"
+        app:layout_constraintVertical_bias="0.353"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
