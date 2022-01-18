@@ -11,4 +11,16 @@
     <string name="btnSignScreen">Sign In</string>
     <string name="hintEmail">Email</string>
     <string name="hintPassword">Password</string>
+    <string name="btnComedy">Comedy</string>
+    <string name="btnNews">News</string>
+    <string name="btnTrueCrime">True Crime</string>
+    <string name="btnBusiness">Business</string>
+    <string name="btnSocietyCulture"><![CDATA[Society&Culture]]></string>
+    <string name="btnSports">Sports</string>
+    <string name="btnHealthFitness"><![CDATA[Health&Fitness]]></string>
+    <string name="btnArts">Arts</string>
+    <string name="btnHistory">History</string>
+    <string name="btnScience">Science</string>
+    <string name="btnTechnology">Technology</string>
+    <string name="btnFiction">Fiction</string>
 </resources>

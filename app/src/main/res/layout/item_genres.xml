@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnComedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnComedy" />
+
+    <Button
+        android:id="@+id/btnNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnNews" />
+
+    <Button
+        android:id="@+id/btnTrueCrime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTrueCrime" />
+
+    <Button
+        android:id="@+id/btnBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBusiness" />
+
+    <Button
+        android:id="@+id/btnSocietyCulture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSocietyCulture" />
+
+    <Button
+        android:id="@+id/btnSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSports" />
+
+    <Button
+        android:id="@+id/btnHealthFitness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHealthFitness" />
+
+    <Button
+        android:id="@+id/btnArts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnArts" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHistory" />
+
+    <Button
+        android:id="@+id/btnScience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnScience" />
+
+    <Button
+        android:id="@+id/btnTechnology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTechnology" />
+
+    <Button
+        android:id="@+id/btnFiction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFiction" />
+</LinearLayout>

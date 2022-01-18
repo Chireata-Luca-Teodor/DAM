@@ -29,18 +29,19 @@ public class HomeScreen extends AppCompatActivity {
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(HomeScreen.this,"Create new account!", Toast.LENGTH_LONG).show();
-                Intent newWindow = new Intent(HomeScreen.this, RegisterScreen.class);
-                startActivity(newWindow);
+                Toast.makeText(HomeScreen.this,"Login to your account!", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(HomeScreen.this, RegisterScreen.class);
+                startActivityForResult(intent,HomeScreenRequest);
             }
         });
         btnSignIn = findViewById(R.id.btnSignIn);
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(HomeScreen.this,"Login succesfull!", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(HomeScreen.this, SignInScreen.class);
-                startActivityForResult(intent,HomeScreenRequest);
+                Toast.makeText(HomeScreen.this,"Create new account!", Toast.LENGTH_LONG).show();
+                Intent newWindow = new Intent(HomeScreen.this, SignInScreen.class);
+                startActivity(newWindow);
+
             }
         });
 
@@ -54,8 +55,8 @@ public class HomeScreen extends AppCompatActivity {
                 if(data!=null){
                     Bundle newBundle = data.getBundleExtra("BundleAnswer");
                     User user = (User) newBundle.getSerializable("user");
-                    etEmailSign.setText(user.getEmail());
-                    etPasswordSign.setText(user.getPassword());
+//                    etEmailSign.setText(user.getEmail());
+//                   etPasswordSign.setText(user.getPassword());
                 }
             }
         }
